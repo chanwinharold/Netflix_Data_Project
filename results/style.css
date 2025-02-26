@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 2rem 5rem;
+    font-size: larger;
+    line-height: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgba(106, 90, 205, 0.5);
+}
+header {
+    color: yellow;
+    background-image: url("./image_visualizations/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(29, 32, 51, 0.4) 5px 5px, rgba(29, 32, 51, 0.3) 10px 10px, rgba(29, 32, 51, 0.2) 15px 15px, rgba(29, 32, 51, 0.1) 20px 20px, rgba(29, 32, 51, 0.05) 25px 25px;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 5rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 80%;
+}
